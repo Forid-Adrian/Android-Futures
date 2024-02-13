@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
 
     EditText editText;
     Button button;
-
     TextToSpeech textToSpeech;
 
     @SuppressLint({"MissingInflatedId", "NewApi"})
