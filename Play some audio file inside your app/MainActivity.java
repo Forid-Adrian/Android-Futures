@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
 
         imgplay1 = findViewById(R.id.imgplay1);
 
-
-
         imgplay1.setOnClickListener(v -> {
 
             if (imgplay1.getTag()!=null && imgplay1.getTag().toString().contains("notPlaying")){
@@ -42,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 imgplay1.setImageResource(R.drawable.baseline_play_arrow_24);
                 imgplay1.setTag("notPlaying");
             }
-
-
-
-
         });
 
 
